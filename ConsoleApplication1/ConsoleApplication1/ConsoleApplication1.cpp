@@ -2,10 +2,16 @@
 //
 
 #include "stdafx.h"
-
+#include <iostream>
+#include <String>
 
 int _tmain(int argc, _TCHAR* argv[])
 {
+	std::string str;
+	std::cout << "enter your name: ";
+	std::cin >> str;
+	std::cout << "Hello " << str << std::endl;
+	std::cin.get();
 	return 0;
 }
 
