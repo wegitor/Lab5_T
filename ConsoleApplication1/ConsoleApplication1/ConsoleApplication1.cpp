@@ -8,7 +8,7 @@
 int _tmain(int argc, _TCHAR* argv[])
 {
 	std::string str;
-	std::cout << "enter your name: ";
+	std::cout << "Please enter your name: ";
 	std::cin >> str;
 	std::cout << "Hello " << str << std::endl;
 	std::cin.get();
